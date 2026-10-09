@@ -1,0 +1,38 @@
+/*
+    Contains basic page styles for elements on
+    the page outside of the <canvas> element.
+
+    Author: Josh Archer
+    Author: Sonia Singh
+    File: country.css
+    Date: 02/07/2026
+*/
+
+html {
+    background-color: beige;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: 12px auto;
+    width: 100px;
+    padding: 8px;
+    font-size: 1.2 em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(176, 176, 132);
+}
+
+button:hover {
+    background-color: rgb(208, 208, 61);
+}
